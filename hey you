@@ -1,0 +1,54 @@
+# wahahahaha
+hi
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace new_assignment6_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a, d, n, sum = 0;
+            Console.Write("pls enter the value of a: ");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("pls enter the value of d: ");
+            d = Convert.ToDouble(Console.ReadLine());
+            Console.Write("pls enter the value og N: ");
+            n = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(" i      sum");
+            Console.WriteLine("---    -----");
+
+            for (int i = 1; i<=n;i++)
+            {
+                sum = sum + a + (i - 1) * d;
+                Console.WriteLine("{0,3}    {1}", i, sum);
+            }
+
+
+
+        /*    double a, d, n, sum = 0, i = 1;
+            Console.Write("pls enter the value of a: ");
+            a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("pls enter the value of d: ");
+            d = Convert.ToDouble(Console.ReadLine());
+            Console.Write("pls enter the value og N: ");
+            n = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(" i      sum");
+            Console.WriteLine("---    -----");
+            while(i<=n)
+            {
+                sum += + a + (i - 1) * d;
+                Console.WriteLine("{0,3}    {1}", i, sum);
+                i++;
+            }
+        */
+
+        }
+    }
+}
