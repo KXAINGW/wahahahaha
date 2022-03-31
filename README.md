@@ -1,3 +1,3 @@
 # wahahahaha
 hi
-click download or file raw
+click download or view raw
